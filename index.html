@@ -18,6 +18,7 @@
     <script src="resources/jquery-3.7.1.min.js" integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="chat.css">
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
 </head>
 
 <body data-bs-theme="dark">
@@ -69,6 +70,7 @@
 
 
     <div class="container p-2 card" id="input-area">
+        <dotlottie-player src="https://lottie.host/272b60dd-462d-42a3-8ed6-fec4143633d6/X4FxBascRI.json" background="transparent" speed="1" style="width: 300px; height: 300px" direction="1" playMode="normal" loop autoplay></dotlottie-player>
         <div class="input-group">
                 <textarea class="form-control" id="user-input" placeholder="Tapez votre question ici..." oninput="autoGrow(this)"></textarea>
             <button id="send-button" class="btn btn-primary">Envoyer</button>
