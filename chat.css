@@ -89,12 +89,14 @@ body {
 
 .lottie-container {
     display: flex;             /* Enable Flexbox */
+    flex-direction: column;             /* Enable Flexbox */
     justify-content: center;   /* Center horizontally */
     align-items: center;       /* Center vertically */
     height: 100vh;             /* Full viewport height */
     width: 100vw;              /* Full viewport width */
     position: relative;        /* Relative positioning to allow absolute positioning if needed */
     background: #f0f0f0;       /* Optional background for visibility */
+
 }
 
 .lottie-container dotlottie-player {
